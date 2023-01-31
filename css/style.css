@@ -1,0 +1,68 @@
+html {
+    background-size: cover;
+}
+
+body {
+    background-image: url(../assets/61489d36e8157300048d7015.png);
+    background-color:palevioletred;
+    background-position: bottom -350px left 20px;
+        background-repeat: no-repeat;
+        background-size: 30%;
+}
+
+.subBtn {
+    background-color: black;
+    color: palevioletred;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 400px;
+    border-radius: 10px;
+    font-family: PoppinsBold;
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: PoppinsBold;
+    border-style: solid;
+}
+
+h1 {
+    font-family: AlegreyaBold;
+}
+
+.listFont {
+    font-family: PoppinsRegular;
+    font-size: 2rem;
+}
+
+/* Font Section */
+@font-face {
+    font-family: AlegreyaBold;
+    src: url(../assets/Alegreya-Bold.ttf);
+}
+
+@font-face {
+    font-family: AlegreyaRegular;
+    src: url(../assets/Alegreya-Regular.ttf);
+}
+
+@font-face {
+    font-family: PoppinsBold;
+    src: url(../assets/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: PoppinsRegular;
+    src: url(../assets/Poppins-Regular.ttf);
+}
+
+
+/* Styles targetting ID tags */
+#singleName{
+    font-family: PoppinsRegular;
+    font-size: 3rem;
+}
+
+#fiveStudentsList{
+    float:left
+}
